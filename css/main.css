@@ -1,0 +1,148 @@
+/* header */
+
+.header {
+  padding: 20px 0 182px;
+  text-align: center;
+}
+
+.offer {
+  background: #b9cde9;
+  align-items: center;
+}
+
+.offer-skip {
+  text-align: left;
+  margin-right: 322px;
+}
+
+.nav {
+  margin-top: 20px;
+  margin-bottom: 159px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  max-width: 130px;
+}
+
+.nav-menu__list {
+  margin-left: auto;
+}
+
+.nav-menu__item {
+  margin-right: 30px;
+}
+
+.nav-menu__item:nth-child(3) {
+  margin-left: 22px;
+  margin-right: 52px;
+}
+
+.nav-menu__link {
+  text-transform: uppercase;
+}
+
+.user {
+  gap: 20px;
+}
+
+.user i {
+  font-size: 20px;
+}
+
+.header-shop__link {
+  margin-top: 82px;
+  display: inline-block;
+  max-width: 136px;
+  width: 100%;
+  background: #270515;
+  color: #fff;
+  padding: 14px 26px;
+}
+
+/* content */
+
+.content {
+  padding: 77px 0 34px;
+  background: #fbf6f0;
+}
+
+.awards {
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.awards-wrap {
+  flex-direction: column;
+  align-items: center;
+}
+
+.awards-wrap__text {
+  max-width: 184px;
+  width: 100%;
+  text-align: center;
+}
+
+.square {
+  gap: 16px;
+  justify-content: center;
+  margin-top: 37px;
+}
+
+.square-1 {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #270515;
+}
+
+.square-black {
+  width: 10px;
+  height: 10px;
+  background: #270515;
+  border: 2px solid #270515;
+}
+
+.products {
+  gap: 50px;
+  justify-content: center;
+  margin-top: 84px;
+}
+
+.products-wrap {
+  position: relative;
+  flex-direction: column;
+  max-width: 333px;
+  width: 100%;
+  max-height: 333px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.products-wrap__info {
+  position: absolute;
+  display: block;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 46px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background: rgb(39, 5, 21);
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.products-wrap:hover .products-wrap__info {
+  opacity: 1;
+}
+
+.products-title {
+  font-size: 44px;
+}
