@@ -38,7 +38,18 @@ h4,
 h5,
 h6 {
   padding: 0;
+  color: #270515;
   font-weight: 400;
+}
+
+h5 {
+  font-size: 18px;
+  text-transform: none;
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }
 
 .d-flex {
