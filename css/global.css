@@ -43,6 +43,11 @@ h6 {
 }
 
 h5 {
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  max-width: 146px;
+  width: 100%;
   font-size: 18px;
   text-transform: none;
 }
